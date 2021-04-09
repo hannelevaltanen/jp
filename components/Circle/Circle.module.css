@@ -1,0 +1,23 @@
+.circle {
+	position: absolute;
+	left: 2rem;
+	bottom: -5rem;
+	display: flex;
+	margin-right: -5rem;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-secondary);
+	font-size: 4em;
+	font-weight: var(--font-weight-bold);
+	height: 10rem;
+	width: 10rem;
+	border-radius: 100%;
+}
+
+@media (min-width: 1000px) {
+	.circle {
+		left: auto;
+		right: 0;
+		bottom: 5rem;
+	}
+}
