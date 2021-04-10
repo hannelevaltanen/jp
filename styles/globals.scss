@@ -1,9 +1,11 @@
+@import 'variables';
+
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: var(--font-family-primary);
-	font-weight: var(--font-weight-regular);
+	font-family: $font-family-primary;
+	font-weight: $font-weight-regular;
 	font-size: 1rem;
 	line-height: 1.6;
 }
@@ -22,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-family-secondary);
+	font-family: $font-family-secondary;
 	margin: 1rem 0 1rem;
 	line-height: 1;
 }
@@ -30,31 +32,31 @@ h6 {
 h1 {
 	margin-bottom: 2rem;
 	text-transform: uppercase;
-	font-size: var(--font-size-xxl);
+	font-size: $font-size-xxl;
 }
 
 h2 {
-	font-size: var(--font-size-xl);
+	font-size: $font-size-xl;
 }
 
 h3 {
-	font-size: var(--font-size-l);
+	font-size: $font-size-l;
 }
 
 h4 {
-	font-size: var(--font-size-m);
+	font-size: $font-size-m;
 }
 
 h5 {
-	font-size: var(--font-size-s);
+	font-size: $font-size-s;
 }
 
 h6 {
-	font-size: var(--font-size-xs);
+	font-size: $font-size-xs;
 }
 
 p {
-	font-size: var(--font-size-m);
+	font-size: $font-size-m;
 	margin-bottom: 1.5rem;
 }
 

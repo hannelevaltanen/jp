@@ -3,7 +3,7 @@ import Circle from '../components/Circle/Circle'
 import Social from '../components/Social/Social'
 import Rose from '../components/Rose/Rose'
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (

@@ -1,0 +1,18 @@
+// Mixins
+@mixin desktop() {
+	@media (min-width: $breakpoint-xl) {
+		@content;
+	}
+}
+
+@mixin tablet() {
+	@media (min-width: $breakpoint-m) {
+		@content;
+	}
+}
+
+@mixin mobile() {
+	@media (min-width: $breakpoint-xs) {
+		@content;
+	}
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Rose.module.css'
+import styles from './Rose.module.scss'
 
 const Rose = () => {
     return (
