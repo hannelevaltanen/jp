@@ -5,7 +5,7 @@ import styles from './Social.module.css'
 const Social = ({ fb, ig }) => {
     return (
         <div className={styles.social}>
-            Ollaan yhteydessä
+            <div className={styles.socialText}>Ollaan yhteydessä</div>
             <ul className="list">
                 <li>
                     <a href={fb} target="_blank" rel="noopener noreferrer">

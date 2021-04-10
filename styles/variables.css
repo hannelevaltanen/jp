@@ -21,4 +21,10 @@
 	--font-size-s: 16px;
 	--font-size-xs: 14px;
 	--font-size-xxs: 12px;
+
+	--breakpoint-xl: 1248px;
+	--breakpoint-l: 992px;
+	--breakpoint-m: 768px;
+	--breakpoint-s: 576px;
+	--breakpoint-xs: 320px;
 }
