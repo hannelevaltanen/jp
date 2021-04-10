@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <div className={styles.grid}>
       
-      <Head title="Johanna Parjanen" description="Olen 36-vuotias luottamusmies ja myyjä. Asumme mieheni ja 4 lapsemme kanssa Kortekummussa Kangasalla. Meistä tuli Kangasalalaisia vuonna 2011 kun muutimme Tampereelta Vatialaan." />
+      <Head
+        title="Johanna Parjanen valtuustoon"
+        description="Johanna Parjanen on 36-vuotias luottamusmies ja myyjä. Hän asuu miehen ja 4 lapsen kanssa Kortekummussa Kangasalla. Johanna on ollut kangasalalainen jo kymmenen vuoden ajan." />
 
       <header className={styles.header}>
         <img src="/logo.svg" alt="SDP Logo" className={styles.logo} />
@@ -18,7 +20,7 @@ export default function Home() {
 
       <main className={styles.main}>
         
-        <Social fb={"http://facebook.com"} ig={"http://instagram.com"}></Social>
+        <Social fb={"http://facebook.com"} ig={"http://instagram.com/johannaparjanenvaltuustoon"}></Social>
 
         <h1 className={styles.title}>
           <span className={styles.eyebrown}>Luottamusmies/myyjä</span>
@@ -26,7 +28,7 @@ export default function Home() {
         </h1>
 
         <p>
-          Olen 36-vuotias luottamusmies ja myyjä. Asumme mieheni ja 4 lapsemme kanssa Kortekummussa Kangasalla. Meistä tuli Kangasalalaisia vuonna 2011 kun muutimme Tampereelta Vatialaan.
+          Olen 36-vuotias luottamusmies ja myyjä. Asumme mieheni ja 4 lapsemme kanssa Kortekummussa Kangasalla. Meistä tuli kangasalalaisia vuonna 2011 kun muutimme Tampereelta Vatialaan.
         </p>
 
         <p>
