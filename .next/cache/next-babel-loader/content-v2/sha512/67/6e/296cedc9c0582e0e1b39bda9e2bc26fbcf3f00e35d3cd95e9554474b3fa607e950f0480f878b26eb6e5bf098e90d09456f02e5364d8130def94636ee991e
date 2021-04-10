@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from 'react';\nimport styles from './Circle.module.css';\n\nconst Circle = ({\n  number\n}) => {\n  return /*#__PURE__*/_jsx(\"div\", {\n    className: styles.circle,\n    children: number\n  });\n};\n\nexport default Circle;","map":null,"metadata":{},"sourceType":"module"}

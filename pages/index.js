@@ -1,6 +1,7 @@
 import Head from '../components/Head/Head'
 import Circle from '../components/Circle/Circle'
 import Social from '../components/Social/Social'
+import Rose from '../components/Rose/Rose'
 
 import styles from '../styles/Home.module.css'
 
@@ -16,12 +17,13 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
+        
+        <Social fb={"http://facebook.com"} ig={"http://instagram.com"}></Social>
+
         <h1 className={styles.title}>
           <span className={styles.eyebrown}>Luottamusmies/myyjä</span>
           Johanna Parjanen
         </h1>
-
-        <Social fb={"http://facebook.com"} ig={"http://instagram.com"}></Social>
 
         <p>
           Olen 36-vuotias luottamusmies ja myyjä. Asumme mieheni ja 4 lapsemme kanssa Kortekummussa Kangasalla. Meistä tuli Kangasalalaisia vuonna 2011 kun muutimme Tampereelta Vatialaan.
@@ -39,11 +41,13 @@ export default function Home() {
 
         <h2>Luovuus</h2>
         <p>Tarvitsemme ratkaisukeskeistä lähestymistä epäkohtien korjaamiseksi.</p>
+
+        <Rose />
         
         <p>Olen motivoitunut kehittämään palveluitamme Kangasalla.
         Haluan kuulla kaupunkilaisten toiveita ja ajatuksia ajankohtaisten muutosten toteuttamiseksi.</p>
 
-        <p>Meidän Kangasala rakennetaan yhdessä!</p>
+        <p><em>Meidän Kangasala rakennetaan yhdessä!</em></p>
 
         <p className={styles.copyright}>&copy; Johanna Parjanen 2021</p>
 
