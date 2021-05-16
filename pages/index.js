@@ -15,12 +15,12 @@ export default function Home() {
 
       <header className={styles.header}>
         <img src="/logo.svg" alt="SDP Logo" className={styles.logo} />
-        <Circle number={185}></Circle>
+        <Circle number={60}></Circle>
       </header>
 
       <main className={styles.main}>
         
-        <Social fb={"http://facebook.com"} ig={"http://instagram.com/johannaparjanenvaltuustoon"}></Social>
+        <Social fb={"https://www.facebook.com/johannaparjanenvaltuustoon"} ig={"http://instagram.com/johannaparjanenvaltuustoon"}></Social>
 
         <h1 className={styles.title}>
           <span className={styles.eyebrown}>Luottamusmies/myyjä</span>
